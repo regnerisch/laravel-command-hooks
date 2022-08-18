@@ -2,6 +2,7 @@
     "name": "regnerisch/laravel-command-hooks",
     "type": "library",
     "license": "ISC",
+    "version": "0.1.0",
     "autoload": {
         "psr-4": {
             "Regnerisch\\LaravelCommandHooks\\": "src/"
