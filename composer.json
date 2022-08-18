@@ -1,0 +1,23 @@
+{
+    "name": "regnerisch/laravel-command-hooks",
+    "type": "library",
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "Regnerisch\\LaravelCommandHooks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonas Regner",
+            "email": "regnerjonas@protonmail.com"
+        },
+        {
+            "name": "Alexander Gaal",
+            "email": "alexander.gaal@gipfel.dev"
+        }
+    ],
+    "require": {
+        "illuminate/console": "^9.25"
+    }
+}
