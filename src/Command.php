@@ -13,7 +13,11 @@ class Command extends BaseCommand
         $code = null;
 
         if (method_exists($this, 'before')) {
-            $this->before();
+            $code = $this->before();
+
+            if ($code) {
+                return (int) $code;
+            }
         }
 
         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
