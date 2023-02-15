@@ -19,6 +19,6 @@
         }
     ],
     "require": {
-        "illuminate/console": "^9.25"
+        "illuminate/console": "^10.0"
     }
 }
